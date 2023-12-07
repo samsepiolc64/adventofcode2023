@@ -8,6 +8,13 @@ i = 1
 suma = 0
 ss=[12]
 
+
+def pierwszy_wiersz(tekst):
+    wiersze = tekst.split('\n')
+    if wiersze:
+        return wiersze[0]
+    return None
+
 # def sumator(data):
 #     ss = []
 #     for i in data:
@@ -26,6 +33,11 @@ ss=[12]
 #     print(suma)
 #     data = ss
 
+
+if data is not None:
+    print("Pierwszy wiersz:", data)
+else:
+    print("Brak wierszy w tekście.")
 
 
 mass_file.close()
