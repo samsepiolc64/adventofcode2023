@@ -14,9 +14,10 @@ def first_line(data):
                 
         
 
+
 if mass_file is not None:
     print("Temp data", first_line(mass_file))
 else:
-    print("Data file is empty.")
+    print("Data file is empty")
 
 mass_file.close()
